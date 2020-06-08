@@ -35,9 +35,9 @@ jobs:
 
       
     - name: Install Surge
-      run: npm install -g surge
+      run: npm install --global surge
       
     - name: Run Serge 
-      run: surge ./ adnanreactbootcamp.surge.sh --token ${{secrets.SURGE_TOKEN}}
+      run: surge ./build reactbootcamp-adnan2020.surge.sh --token ${{secrets.SURGE_TOKEN}}
     
     
