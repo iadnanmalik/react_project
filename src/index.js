@@ -3,26 +3,16 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import Hello from './Hello';
 
 function Welcome(props) {
-  return
-  {
-    <div>
-      <h1>
-        Hello World
-      </h1>
-      <h2>
-        Lets start react
-      </h2>
-      </div>
-  }
+  return    <div>Hello World</div>;
 
 
 }
+const element= <Welcome name="adnan"/>;
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  < App />,
   document.getElementById('root')
 );
 

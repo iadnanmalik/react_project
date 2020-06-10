@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Hello from './Hello';
 
 function App() {
     return ( <div className = "App" >
@@ -8,14 +9,20 @@ function App() {
         <img src = { logo } className = "App-logo" alt = "logo" / >
         <p >
         Lets get started with REACT JS 
+        
+        <div>
+            <Hello />
+        </div>
         </p> 
         <a className = "App-link" href = "https://reactjs.org"
         target = "_blank" rel = "noopener noreferrer" >
         Learn React 
         </a> 
         </header> 
+        
         </div>
     );
 }
+
 
 export default App;
